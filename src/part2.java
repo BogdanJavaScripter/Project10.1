@@ -34,7 +34,7 @@ class Swimmer {
     }
 
     public void setFavoriteStroke(String favoriteStroke) {
-        this.favoriteType = favoriteStroke;
+        this.favoriteType = favoriteType;
     }
 
     public int getTotalDistanceSwum() {
@@ -131,7 +131,7 @@ public class part2 {
             System.out.println("0 - Exit");
 
             choice = KeyBoard.nextInt();
-            KeyBoard.nextLine(); // Consume the newline character
+            KeyBoard.nextLine(); //
 
             switch (choice) {
                 case 1:
